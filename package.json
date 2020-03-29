@@ -1,0 +1,20 @@
+{
+  "name": "cm-pass",
+  "version": "1.0.0",
+  "description": "Save and manage password from terminal",
+  "bin": "index.js",
+  "scripts": {
+    "lint": "standard --fix"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "4.0.1",
+    "minimist": "1.2.5",
+    "sqlite3": "4.1.1"
+  },
+  "devDependencies": {
+    "standard": "14.3.3"
+  }
+}
